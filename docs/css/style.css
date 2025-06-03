@@ -1,0 +1,71 @@
+/* ========== HEADER & NAV ========== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+/* ========== HERO SECTION ========== */
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--clr-neutral-dark-violet);
+}
+
+.hero-text p {
+  color: var(--clr-neutral-violet);
+  margin: 1rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Navigation menu */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--clr-neutral-dark-blue);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: var(--clr-primary-cyan);
+}
+
+/* Auth buttons (Login + Sign Up) */
+.auth {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.auth a {
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: var(--clr-neutral-dark-blue);
+}
+
+.auth .btn--primary {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.95rem;
+}
